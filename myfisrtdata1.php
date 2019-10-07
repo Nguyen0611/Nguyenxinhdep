@@ -28,7 +28,7 @@ $resultSet = $stmt->fetchAll();
 	<?php
 			foreach ($resultSet as $row) {
 				echo "<li>".
-				$row["productID"].'--'. $row["productName"].'--'. $row["price"]. "</li>";
+				$row["productid"].'--'. $row["productname"].'--'. $row["price"]. "</li>";
 
 			}
 	?>
